@@ -1,6 +1,8 @@
 package it.epicode.be;
 
 import java.util.Arrays;
+import java.util.Scanner;
+
 
 public class Helloworld {
 
@@ -43,6 +45,16 @@ public static void main (String[] args)
 		
 		
 		//Esercizo 3
+		String[] arr= leggiStringhe();
+			
+		 Scanner s = new Scanner(System.in);
+			
+		static String[] = leggiStringhe() {
+			String[] stringhe = new String[3];
+			
+			System.out.println("inserisci stringa1");
+			
+		}
 		
 		String text1= "questo ";
 		String text2= "è il ";
@@ -71,6 +83,11 @@ public static void main (String[] args)
 		
 		System.out.println("L'area del triangolo è : " + (base*altezza/2) +"\n");
 		}
+
+private static String[] leggiStringhe() {
+	// TODO Auto-generated method stub
+	return null;
+}
 }
 
 
